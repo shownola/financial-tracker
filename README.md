@@ -13,7 +13,14 @@ Requirements:
 Restrictions or constraints
 * Requires fast development
 * Styling, while not of utmost importance, needs to be nice and presentable
-* No test framework require since it's a prototype and the aim is to get the product up and running to disply at the investor's meeting
+* No test framework require since it's a prototype and the aim is to get the product up and running to display at the investor's meeting
 * Core functionality, time and presentation are key factors.
 
+Task: Design and add Stock model
+* Attributes name, ticker_symbol and price
+* Automate looking up stock (currently only possible through the console)
+* Automate API key insertion (instead of having to key it in every time we look up a stock)
+* This will expose you to secure credentials in Rails apps:
+  credentials.yml.enc (encrypted file)
+  master.key (key to decrypt credentials file)
 * ...
