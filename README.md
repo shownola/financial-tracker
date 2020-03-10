@@ -20,9 +20,14 @@ Task: Design and add Stock model
 * Attributes name, ticker_symbol and price
 * Automate looking up stock (currently only possible through the console)
 * Automate API key insertion (instead of having to key it in every time we look up a stock)
-* This will expose you to secure credentials in Rails apps:
-  credentials.yml.enc (encrypted file)
-  master.key (key to decrypt credentials file)
+* Secure api credentials
+
+Task: Lookup stock from browser
+* Create form to look up ticker symbol (portfolio view)
+* Create route to forward symbol to a controller (portfolio)
+* Create controller with action that uses the Stock.new_lookup method (stocks_controller with seach_stocks action)
+* Return info for display on the browser to the user (utilize porfolio view to render price information)
+
 * ...
 
-EDITOR="code --wait" rails credentials:edit
+EDITOR="atom --wait" rails credentials:edit
