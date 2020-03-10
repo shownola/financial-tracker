@@ -1,0 +1,7 @@
+<% if @stock %>
+  <div class="card card-header results-block space-between">
+    <strong class='pl-2'>Symbol: </strong><%= @stock.ticker %>
+    <strong class='pl-3'>Name: </strong><%= @stock.name %>
+    <strong class='pl-3'>Price: </strong><%= @stock.last_price %>
+  </div>
+<% end %>
