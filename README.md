@@ -24,3 +24,5 @@ Task: Design and add Stock model
   credentials.yml.enc (encrypted file)
   master.key (key to decrypt credentials file)
 * ...
+
+EDITOR="code --wait" rails credentials:edit
