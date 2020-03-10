@@ -28,6 +28,15 @@ Task: Lookup stock from browser
 * Create controller with action that uses the Stock.new_lookup method (stocks_controller with seach_stocks action)
 * Return info for display on the browser to the user (utilize porfolio view to render price information)
 
+* Create many-to-many associations between users and stock through user_stocks
+user_stocks_controller, user_stock.rb model, user_stocks table
+create routes: resources :user_stocks
+ $ rails g resource UserStock user:references stock:references
+ 
+ $rails routes --expanded |grep user_stocks
+
 * ...
 
 EDITOR="atom --wait" rails credentials:edit
+
+lect 226
