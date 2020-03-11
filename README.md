@@ -6,7 +6,8 @@ Requirements:
 * Authentication system, users can sign-up, edit their profile, login/logout
 * Users can track stock, up to 10 per user. Their profile page will display all of the stocks they are tracking with their current price.
 * Users can search for stocks, add and remove stocks from their portfolio
-* Users can look for friends, or other users of the app, by name or email
+* Create a self referential association for users friendships
+* Users can look for friends, or other users of the app, by name or email and
 * Users can view the portfolio of stocks their friends are tracking for ideas.
 * The app must be mobile friendly.
 
@@ -32,10 +33,19 @@ Task: Lookup stock from browser
 user_stocks_controller, user_stock.rb model, user_stocks table
 create routes: resources :user_stocks
  $ rails g resource UserStock user:references stock:references
- 
+
  $rails routes --expanded |grep user_stocks
 
 * ...
+
+* Create a self referential association for users:  rails g model Friendship user:references  
+def change
+  create_table :friendships do |t|
+    t.references :user, null: false, foreign_key: true
+    t.references :friend, references: :users, foreign_key: { to_table: :users }
+
+    t.timestamps
+  end
 
 EDITOR="atom --wait" rails credentials:edit
 
