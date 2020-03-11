@@ -1,7 +1,40 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+// .bg-img {
+//   background: image_url('stocks.jpg');
+//   // background: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), image_url('stocks.jpg');
+//   background-size: cover;
+//   background-position: center;
+// }
+
+// body {
+//   background-color: #219e4d;
+//   // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
+//   background-image: linear-gradient(rgba(121, 193, 71, 0.53), rgba(16, 29, 44, 0.53)), url('stocks.jpg');
+//   background-size: cover;
+//   background-position: center;
+//
+//   // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
+//
+// }
+
+// .bg-img {
+//   // background-color: #54483A;
+//   background-color: #219e4d;
+//   // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
+//   background-image: linear-gradient(rgba(121, 193, 71, 0.53), rgba(16, 29, 44, 0.53)), url('stocks.jpg');
+//   background-size: cover;
+//   background-position: center;
+//   padding: 8rem;
+//   padding-top: 4rem;
+//
+//   justify-content: center;
+// }
 .navbar-brand {
   font-size: 2rem;
+}
+.logout-btn {
+  margin-right: .5rem;
 }
 .newuser-container {
   padding-top: 5rem;
@@ -21,4 +54,5 @@
 }
 .results-block {
   display: inline-block;
+  margin-bottom: 1rem;
 }
