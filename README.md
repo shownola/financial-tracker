@@ -36,6 +36,10 @@ create routes: resources :user_stocks
 
  $rails routes --expanded |grep user_stocks
 
+ * Create a route for my_friends and add controller action
+ * Create views for friends 
+
+
 * ...
 
 * Create a self referential association for users:  rails g model Friendship user:references  
