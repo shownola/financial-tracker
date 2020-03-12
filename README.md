@@ -9,6 +9,7 @@ Requirements:
 * Create a self referential association for users friendships
 * Users can look for friends, or other users of the app, by name or email and
 * Users can view the portfolio of stocks their friends are tracking for ideas.
+* App will contain search functionality
 * The app must be mobile friendly.
 
 Restrictions or constraints
@@ -37,7 +38,7 @@ create routes: resources :user_stocks
  $rails routes --expanded |grep user_stocks
 
  * Create a route for my_friends and add controller action
- * Create views for friends 
+ * Create views for friends
 
 
 * ...
