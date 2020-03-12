@@ -1,5 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+@media(max-width: 900px) and (min-width: 200px) {
+ .left-padding {padding-left: 0px !important}
+}
+
 // .bg-img {
 //   background: image_url('stocks.jpg');
 //   // background: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), image_url('stocks.jpg');
