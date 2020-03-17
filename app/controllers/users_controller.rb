@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  layout 'user'
 
   def my_portfolio
     @user = current_user

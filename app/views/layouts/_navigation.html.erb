@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
+<div class="container-fluid w-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-5 bg-custom">
+  <!-- <div class="container"> -->
   <%= link_to 'Finance Tracker', root_path, class: 'navbar-brand' %>
 <% if current_user %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,19 +31,20 @@
 
         </div>
       </li>
-      
+
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item user-name">
         <%= fa_icon 'user' %> <%= current_user.full_name %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Logout', destroy_user_session_path, class: 'btn logout-btn', method: :delete %>
+        <%= link_to 'Logout', destroy_user_session_path, class: 'btn logout-btn nav-link', method: :delete %>
       </li>
     </ul>
 
   </div>
   <% end %>
-</div>
+<!-- </div> -->
 
 </nav>
+</div>

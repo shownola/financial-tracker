@@ -1,0 +1,101 @@
+
+@import 'bootstrap/dist/css/bootstrap';
+@import 'font-awesome';
+
+
+@import 'bootstrap/dist/css/bootstrap';
+
+@media(max-width: 900px) and (min-width: 200px) {
+ .left-padding {padding-left: 0px !important}
+}
+
+
+html {
+  color: white;
+}
+
+body {
+  /* color: #fff; */
+  background-image: linear-gradient(rgba(46, 61, 52, .73), rgba(46, 61, 52, 0.53)), url('stocks.jpg');
+  background-size: cover;
+  background-color: rgba(#fff, .7);
+  opacity: .75;
+  padding: 8rem;
+  padding-top: 4rem;
+}
+
+
+.form-group {
+  // color: white;
+}
+
+.navbar {
+  margin-top: -50;
+  padding-top: -190;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #00FB72!important;
+}
+.logout-btn {
+  margin-right: .5rem;
+}
+.login-btn {
+  background-color: #FFF859;
+  border: solid 2px #CCF332;
+
+  &:hover {
+    background-color: #19FE73;
+  }
+}
+// .port-heading {
+//   padding-top: 3rem;
+// }
+// .search-area {
+//   padding-top: 5rem;
+// }
+.no-right-padding {
+  padding-right: 0!important;
+}
+.no-left-padding {
+  padding-left: 0!important;
+}
+.results-block {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.user-name {
+  margin-top: .45rem;
+  padding-right: 1rem;
+}
+.search-btn {
+  border-style: solid;
+  border-width: 2px;
+}
+.login-container {
+  padding-top: 7rem;
+}
+.devise-links {
+  color: #19FE73;
+  // color: #CCF332;
+  &:hover {
+    color: #CCF332;
+  }
+
+}
+.display-3 {
+  color: #FFF859;
+  // color: #00FB72;
+}
+.display-2 {
+  // color: #FEEE59;
+  // color: #00FB72;
+  color: #CCF332;
+}
+h2 {
+  color: #FFF859;
+}
+.f-label {
+  color: #FEEE59;
+}

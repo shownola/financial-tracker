@@ -1,5 +1,5 @@
 <div class="container pt-5">
-  <h1 class="display-4 text-center pb-5">Friends</h1>
+  <h1 class="display-4 text-center pb-5 pt-5">Friends</h1>
 
   <div class="search-area">
     <%= form_tag search_friend_path, remote: true, method: :get do %>
@@ -17,7 +17,7 @@
   </div>
 
   <div id="friend-results">
-    
+
   </div>
 
   <% if !@friends.empty? %>

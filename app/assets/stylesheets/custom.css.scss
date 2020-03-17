@@ -4,11 +4,19 @@
  .left-padding {padding-left: 0px !important}
 }
 
+// body, html {
+//   height: 100%;
+//   margin: 0;
+// }
+
 // .bg-img {
-//   background: image_url('stocks.jpg');
+// background-image: linear-gradient(rgba(121, 193, 71, 0.53), rgba(16, 29, 44, 0.53)), url('stocks.jpg');
 //   // background: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), image_url('stocks.jpg');
-//   background-size: cover;
+//   // position: relative;
+//   opacity: .65%;
 //   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
 // }
 
 // body {
@@ -21,19 +29,39 @@
 //   // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
 //
 // }
+html {
+  color: white;
+}
 
-// .bg-img {
-//   // background-color: #54483A;
-//   background-color: #219e4d;
-//   // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
-//   background-image: linear-gradient(rgba(121, 193, 71, 0.53), rgba(16, 29, 44, 0.53)), url('stocks.jpg');
-//   background-size: cover;
-//   background-position: center;
-//   padding: 8rem;
-//   padding-top: 4rem;
-//
-//   justify-content: center;
+body {
+  color: #fff;
+  // background-color: #54483A;
+  // background-color: #219e4d;
+  // background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url('stocks.jpg');
+  // background-image: linear-gradient(rgba(121, 193, 71, 0.53), rgba(16, 29, 44, 0.53)), url('stocks.jpg');
+  // background-image: linear-gradient(rgba(243, 226, 199, 0.53), rgba(243, 226, 199, 0.53)), url('stocks.jpg');
+  // background: rgba(46,61,52,1);
+  background-image: linear-gradient(rgba(46, 61, 52, .73), rgba(46, 61, 52, 0.53)), url('stocks.jpg');
+  // background-image: linear-gradient(to right, #F8E8D5 0%, #D2C0A7 36%, #68613B 100%), url('stocks.jpg');
+  // background-image: url('stocks.jpg');
+  background-size: cover;
+  background-color: rgba(#fff, .7);
+  opacity: .75;
+  padding: 8rem;
+  padding-top: 4rem;
+
+
+}
+.form-group {
+  color: white;
+}
+// .bg-custom {
+//   background-color: #2E3D34 !important;
 // }
+.navbar {
+  margin-top: -50;
+  padding-top: -190;
+}
 .navbar-brand {
   font-size: 2rem;
 }
@@ -63,5 +91,34 @@
 .search-btn {
   border-style: solid;
   border-width: 2px;
-
 }
+.login-container {
+  padding-top: 7rem;
+}
+.devise-links {
+  color: #19FE73;
+}
+.display-3 {
+  color: #FFF859;
+}
+.f-label {
+  color: #FEEE59;
+}
+.display-2 {
+  color: #19fe73;
+}
+
+// #19FE73 - green
+// #FFF859 - yello
+//
+// c10054 - red
+// #A40D63 - darker red
+// greens
+// #00FB72 - similar to 19fe73 but brighter
+// #0FC58E - similar to 19fe73 but paler
+//
+// reds
+// #FF4B55 - brightest of the reds
+// yellows
+// #CCF332 - darker than FFF859 bright limegreen
+// #FEEE59 - moist like FFF859
