@@ -2,7 +2,7 @@
   <%= render 'layouts/messages' %>
 </div>
 
-
+<div class="container">
 <% if @stock %>
   <div class="card card-header results-block space-between">
     <strong class='pl-2'>Symbol: </strong><%= @stock.ticker %>
@@ -23,3 +23,5 @@
     <% end %>
   </div>
 <% end %>
+
+</div>

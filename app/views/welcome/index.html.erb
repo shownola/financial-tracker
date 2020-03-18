@@ -1,10 +1,11 @@
 <div class="container mt-5 pt-5 text-center">
-  <div class="display-2">Welcome to the Finance Tracker</div>
-  <h2 class="pt-5">Sign Up</h2>
-  <h2 class="pt-3">Search Stocks</h2>
-  <h2 class="pt-3">Follow Friends</h2>
+  <div class="display-2 pb-5">Welcome to the Finance Tracker</div>
+  <%= link_to 'Sign Up', root_path, class: 'py-3 welcome-links' %><br>
+  <%= link_to 'Search Stocks', my_portfolio_path, class: 'py-3 welcome-links' %><br>
+  <%= link_to 'Follow Friends', my_friends_path, class: 'py-5 welcome-links' %><br>
 
 
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'devise-links' %>
+
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'py-3 devise-links' %>
 
 </div>
